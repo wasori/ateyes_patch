@@ -1,0 +1,24 @@
+<main class="page-tab mx-md-n4" id="tab-liveGrid">
+    <div class="grid-stack" id="monitors_live"></div>
+</main>
+<script>
+ document.addEventListener("DOMContentLoaded", function() { 
+// MutationObserver를 사용하여 동적으로 추가된 리사이즈 핸들도 감지하고 제거 
+	const observer = new MutationObserver((mutationsList, observer) => { 
+		mutationsList.forEach(mutation => { 
+			mutation.addedNodes.forEach(node => { 
+				if (node.classList && node.classList.contains('ui-resizable-handle')) { 
+					node.parentNode.removeChild(node); 
+				} 
+			}); 
+		}); 
+	}); 
+	observer.observe(document.getElementById('monitors_live'), { 
+		childList: true, subtree: true 
+	}); 
+	// 초기 로드 시 기존 리사이즈 핸들 제거 
+	document.querySelectorAll('.ui-resizable-handle').forEach(handle => { 
+		handle.parentNode.removeChild(handle); 
+	}); 
+});
+</script>

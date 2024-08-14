@@ -1,0 +1,38 @@
+[ 시노비 수정사항 ]
+
+1. 이미지파일 추가 ( Shinobi-master\web\assets\img )s
+
+++ at-logo-final.png , cctv_bg-04.png
+
+2. bs5.calendar.js 수정 ( Shinobi-master\web\assets\js )s
+
+3. bs5.liveGrid.js 수정 ( Shinobi-master\web\assets\js )s
+
+4. gridstack.min.css 수정 ( Shinobi-master\web\assets\vendor )s
+
+5. clock.js 수정 ( Shinobi-master\web\assets\vendor\js )s
+
+6. gridstack.min.js 수정 ( Shinobi-master\web\assets\vendor\js )s
+
+7. index.ejs 수정 ( Shinobi-master\web\pages )s
+
+8. grid.ejs 수정 ( Shinobi-master\web\pages ) s
+
+9. header-favicon.ejs 수정 ( Shinobi-master\web\pages\blocks )s
+
+10. liveGrid.ejs 수정 ( Shinobi-master\web\pages\blocks\home )
+
+11. ko.json 파일 추가 ( Shinobi-master\languages ) s
+
+12. language.js 파일 수정 ( Shinobi-master\libs ) s
+
+13. bs5.help.js 파일 수정 ( Shinobi-master\web\assets\js )s
+
+14. bs5.startup.js 파일 수정 ( Shinobi-master\web\assets\js )s
+--------------------------------------- - -----------------------------------------------------s
+
+14. 사이드메뉴 제거 부분 ( 보류 )
+
+
+메뉴 제거부분은 우선 원본걸 유지하고, 소장님이 남기라는걸 확실하게 확인받고 수정을 진행하려고 합니다.
+
